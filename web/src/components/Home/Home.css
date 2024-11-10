@@ -1,0 +1,812 @@
+body {
+    position: absolute;
+    background-size: 2500px;
+    background-repeat: no-repeat;
+    background-image: url("https://quackpic.at/background.jpg");
+  }
+  
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 600px;
+    top: 398px;
+    cursor: pointer;
+    background: #e5c06c;
+    box-shadow: 11px 11px 20px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    transition: 0.2s ease;
+  }
+  .containerbig {
+    position: absolute;
+    width: 1700px;
+    height: 875px;
+    left: 100px;
+    right: 100px;
+    top: 100px;
+    background: #e5c06c;
+    box-shadow: 11px 11px 20px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+  }
+  .piclink {
+    position: absolute;
+    width: 733px;
+    height: 47px;
+    margin-top: 20px;
+    left: 470px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 46px;
+    border-radius: 8px;
+    border-style: unset;
+    background-color: #997201;
+    color: #000000;
+  }
+  .piclinkfull {
+    position: absolute;
+    width: 520px;
+    height: 47px;
+    margin-top: 20px;
+    left: 600px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 46px;
+    border-radius: 8px;
+    border-style: unset;
+    background-color: #997201;
+    color: #000000;
+  }
+  .piclink2 {
+    position: absolute;
+    width: 733px;
+    height: 47px;
+    margin-top: -0px;
+    left: 470px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 46px;
+    border-radius: 8px;
+    border-style: unset;
+    background-color: #997201;
+    color: #000000;
+  }
+  .piclink3 {
+    position: absolute;
+    width: 733px;
+    height: 47px;
+    margin-top: 377px;
+    left: 470px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 46px;
+    border-radius: 8px;
+    border-style: unset;
+    background-color: #997201;
+    color: #000000;
+  }
+  .linkzumteilen {
+    position: absolute;
+    width: 733px;
+    height: 47px;
+    margin-top: -40px;
+    left: 715px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 46px;
+  
+    color: #000000;
+  }
+  .rawlink {
+    position: absolute;
+    width: 733px;
+    height: 47px;
+    margin-top: 340px;
+    left: 700px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 46px;
+  
+    color: #000000;
+  }
+  .linkzumloschen {
+    position: absolute;
+    width: 733px;
+    height: 47px;
+    top: 245px;
+    margin-left: 728px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 46px;
+  
+    color: #000000;
+  }
+  .imagevorschaubig {
+    height: 775px;
+    width: 100%;
+    background-position-x: 50%;
+    background-position-y: 120px;
+    background-size: 800px;
+    background-repeat: no-repeat;
+  }
+  .linkkopieren {
+    position: absolute;
+    width: 222px;
+    height: 67px;
+    margin-left: -40%;
+    margin-top: 405px;
+    cursor: pointer;
+    background-color: #997201;
+    border-radius: 15px;
+  }
+  .linknewupload {
+    position: absolute;
+    width: 222px;
+    height: 67px;
+    left: 85%;
+    bottom: 28px;
+    cursor: pointer;
+    background-color: #997201;
+    border-radius: 15px;
+  }
+  .linkdelete {
+    position: absolute;
+    width: 222px;
+    height: 67px;
+    left: 85%;
+    bottom: 28px;
+    cursor: pointer;
+    background-color: #997201;
+    border-radius: 15px;
+  }
+  .buttontext {
+    position: absolute;
+    width: 422px;
+    height: 67px;
+    left: 10px;
+    top: -15px;
+  
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+  
+    color: #e5c06c;
+  }
+  .logobig {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    left: 20px;
+    top: 20px;
+  
+    background-image: url("https://quackpic.at/logo.png");
+  }
+  .uploadtextbig {
+    position: absolute;
+    width: 322px;
+    height: 101px;
+    left: 37%;
+    top: -50px;
+  
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 150px;
+    line-height: 115px;
+  
+    color: #000000;
+  }
+  .uploadimg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    left: 210px;
+    top: 75px;
+    background-image: url("https://quackpic.at/upload.png");
+  }
+  .logo {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    left: 20px;
+    top: 20px;
+  
+    background-image: url("https://quackpic.at/logo.png");
+  }
+  
+  .uploadtext {
+    position: absolute;
+    width: 322px;
+    height: 101px;
+    left: 210px;
+    top: 350px;
+  
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 115px;
+  
+    color: #000000;
+  }
+  .logotext {
+    position: absolute;
+    width: 322px;
+    height: 101px;
+    left: 450px;
+    top: -80px;
+  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 225px;
+  
+    color: #e5c06c;
+  }
+  .loader {
+    border: 32px solid #747474;
+    border-radius: 50%;
+    border-top: 32px solid #000000;
+    width: 240px;
+    margin-left: 700px;
+    margin-top: 400px;
+    height: 240px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  .loadingtextbig {
+    position: absolute;
+    width: 322px;
+    height: 101px;
+    left: 35%;
+    top: 10px;
+  
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 150px;
+    line-height: 115px;
+  
+    color: #000000;
+  }
+  .taketime {
+    position: absolute;
+    width: 822px;
+    height: 101px;
+    left: 25%;
+    top: 240px;
+  
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+  
+    color: #000000;
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-title {
+    font-weight: 800;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .modal-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border-radius: 6px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .closespan {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closespan:hover,
+  .closespan:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Style the Image Used to Trigger the Modal */
+  img {
+      cursor: pointer;
+      transition: 0.3s;
+  }
+  
+  img:hover {opacity: 0.7;}
+  
+  
+  
+  @media (max-width: 1280px) {
+    body {
+      position: absolute;
+      background-repeat: no-repeat;
+      background-size: unset;
+      background-position-x: -225px;
+      background-image: url("https://quackpic.at/background.jpg");
+    }
+    .piclinkfull {
+      position: absolute;
+      width: 520px;
+      height: 47px;
+      margin-top: 20px;
+      left: 270px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 46px;
+      border-radius: 8px;
+      border-style: unset;
+      background-color: #997201;
+      color: #000000;
+    }
+    .imagevorschaubig {
+      height: 600px;
+      width: 100%;
+      background-position-x: 50%;
+      background-position-y: 120px;
+      background-size: 800px;
+      background-repeat: no-repeat;
+    }
+    .logo {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background-repeat: no-repeat;
+      background-size: 80px;
+      left: 15px;
+      top: 15px;
+  
+      background-image: url("https://quackpic.at/logo.png");
+    }
+    .login {
+      position: absolute;
+      width: 65px;
+      height: 30px;
+      background-repeat: no-repeat;
+      background-size: 80px;
+      border-radius: 5px;
+      right: 0px;
+      text-decoration: none;
+      top: 15px;
+      color: #000000;
+      background-color: #e5c06c;
+      font-size: 25px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    .linkdelete {
+      position: absolute;
+      width: 222px;
+      height: 67px;
+      left: 75%;
+      bottom: 28px;
+      cursor: pointer;
+      background-color: #997201;
+      border-radius: 15px;
+    }
+    .container {
+      position: absolute;
+      width: 450px;
+      max-width: 450px;
+      max-width: 550px;
+      height: 550px;
+      left: 350px;
+      top: 298px;
+  
+      background: #e5c06c;
+      box-shadow: 11px 11px 20px 15px rgba(0, 0, 0, 0.25);
+      border-radius: 40px;
+      transition: 0.2s ease;
+    }
+    .piclink {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      margin-top: 20px;
+      left: 470px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 46px;
+      border-radius: 8px;
+      border-style: unset;
+      background-color: #997201;
+      color: #000000;
+    }
+    .piclink2 {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      margin-top: -0px;
+      left: 470px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 46px;
+      border-radius: 8px;
+      border-style: unset;
+      background-color: #997201;
+      color: #000000;
+    }
+    .piclink3 {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      margin-top: 377px;
+      left: 170px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 46px;
+      border-radius: 8px;
+      border-style: unset;
+      background-color: #997201;
+      color: #000000;
+    }
+    .linkzumteilen {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      margin-top: -40px;
+      left: 715px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 46px;
+  
+      color: #000000;
+    }
+    .rawlink {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      margin-top: 340px;
+      left: 400px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 46px;
+  
+      color: #000000;
+    }
+    .linkzumloschen {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      top: 245px;
+      margin-left: 425px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 46px;
+  
+      color: #000000;
+    }
+    .linkkopieren {
+      position: absolute;
+      width: 222px;
+      height: 67px;
+      margin-left: -37%;
+      margin-top: 235px;
+      cursor: pointer;
+      background-color: #997201;
+      border-radius: 15px;
+    }
+    .logotext {
+      position: absolute;
+      width: 322px;
+      height: 101px;
+      left: 320px;
+      top: -50px;
+  
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 150px;
+  
+      color: #e5c06c;
+    }
+  
+    .piclink {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      top: 200px;
+      left: -240px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 46px;
+      border-radius: 8px;
+      border-style: unset;
+      background-color: #997201;
+      color: #000000;
+    }
+    .piclink2 {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      top: 300px;
+      left: 170px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 46px;
+      border-radius: 8px;
+      border-style: unset;
+      background-color: #997201;
+      color: #000000;
+    }
+    .linkzumteilen {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      top: 220px;
+      left: 415px;
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 46px;
+  
+      color: #000000;
+    }
+    .uploadimg {
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      background-repeat: no-repeat;
+      background-size: 250px 250px;
+      left: 160px;
+      top: 50px;
+      background-image: url("https://quackpic.at/upload.png");
+    }
+  
+    .uploadtext {
+      position: absolute;
+      width: 322px;
+      height: 101px;
+      left: 160px;
+      top: 250px;
+  
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 80px;
+      line-height: 115px;
+  
+      color: #000000;
+    }
+  
+    .containerbig {
+      position: absolute;
+      width: 1025px;
+      height: 700px;
+      left: 100px;
+      right: 100px;
+      top: 80px;
+      background: #e5c06c;
+      box-shadow: 11px 11px 20px 15px rgba(0, 0, 0, 0.25);
+      border-radius: 40px;
+    }
+    .piclink {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      margin-left: 40%;
+      top: 200px;
+  
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 46px;
+  
+      color: #000000;
+    }
+    .picdellink {
+      position: absolute;
+      width: 733px;
+      height: 47px;
+      left: 40%;
+      top: 260px;
+  
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 46px;
+  
+      color: #000000;
+    }
+  
+    .linkkopieren {
+      position: absolute;
+      width: 222px;
+      height: 67px;
+      left: 39%;
+      top: 375px;
+      cursor: pointer;
+      background-color: #997201;
+      border-radius: 15px;
+    }
+    .buttontext {
+      position: absolute;
+      width: 222px;
+      height: 67px;
+      left: 10px;
+      top: -15px;
+  
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 34px;
+  
+      color: #e5c06c;
+    }
+    .logobig {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background-repeat: no-repeat;
+      background-size: 120px;
+      left: 20px;
+      top: 20px;
+  
+      background-image: url("https://quackpic.at/logo.png");
+    }
+    .linknewupload {
+      position: absolute;
+      width: 222px;
+      height: 67px;
+      left: 75%;
+      bottom: 28px;
+      cursor: pointer;
+      background-color: #997201;
+      border-radius: 15px;
+    }
+    .loader {
+      border: 32px solid #747474;
+      border-radius: 50%;
+      border-top: 32px solid #000000;
+      width: 240px;
+      margin-left: 350px;
+      margin-top: 300px;
+      height: 240px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+    .loadingtextbig {
+      position: absolute;
+      width: 322px;
+      height: 101px;
+      left: 27%;
+      top: -50px;
+  
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 150px;
+      line-height: 115px;
+  
+      color: #000000;
+    }
+    .taketime {
+      position: absolute;
+      width: 822px;
+      height: 101px;
+      left: 21%;
+      top: 160px;
+    
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 50px;
+    
+      color: #000000;
+    }
+    .uploadtextbig {
+      position: absolute;
+      width: 322px;
+      height: 101px;
+      left: 32%;
+      top: -50px;
+  
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 150px;
+      line-height: 115px;
+  
+      color: #000000;
+    }
+    .loader {
+      border: 32px solid #747474;
+      border-radius: 50%;
+      border-top: 32px solid #000000;
+      width: 240px;
+      margin-left: 350px;
+      margin-top: 300px;
+      height: 240px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+  }
+  

@@ -1,0 +1,14 @@
+QUACKPIC | CHANGELOG
+- 4.8.2021
+- - Cookie Banner Hinzugefügt
+- - img.quackpic.at
+- - Werbung
+- 7.8.2021
+- - Drag and Drop
+- - Compression
+- 18.8.2021
+- - New Image Viewer
+- - Cleaner Design in the intern files
+- 3.10.2021
+- - Rick Rolling Secret on Path /bilder/
+- - Web Admin Panel

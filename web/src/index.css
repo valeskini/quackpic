@@ -1,0 +1,29 @@
+@font-face {
+    font-family: dsdigital;
+    src: url(DS-DIGI.TTF);
+  }
+  html, body {margin: 0; height: 100%;}
+
+.imprint {
+    font-family: dsdigital;
+    margin-top: 1045px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.imprint a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1280px) {
+    .imprint {
+        font-family: dsdigital;
+        margin-top: 855px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .imprint a {
+        text-decoration: none;
+        color: black;
+    }
+}

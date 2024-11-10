@@ -1,0 +1,15 @@
+{
+  "short_name": "QuackPic",
+  "name": "QuackPic",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "58x65"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#E5C06C",
+  "background_color": "#E5C06C"
+}

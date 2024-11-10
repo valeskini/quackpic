@@ -1,0 +1,14 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^quackpic.at[nc]
+RewriteRule ^(.*)$ http://www.quackpic.at/$1 [r=301,nc]
+
+//Caching schema
+<FilesMatch "\.(jpg|jpeg|png|txt|json|css|js|html|)$">
+Header set Cache-Control "public, max-age=3600"
+</FilesMatch>
+
+//Change default directory page
+DirectoryIndex index.html
+ 

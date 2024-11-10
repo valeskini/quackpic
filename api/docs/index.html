@@ -1,0 +1,24 @@
+<html>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title>QuackPic | API</title>
+    <link rel="icon" type="image/png" href="Logo.png"/>
+    <div id="adobe-dc-view"></div>
+    <style>
+        html, body {margin: 0; height: 100%; overflow: hidden}
+    </style>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script type="text/javascript">
+      document.addEventListener("adobe_dc_view_sdk.ready", function(){
+        var adobeDCView = new AdobeDC.View({clientId: "de1456f4449c4e29b109e893d73af6e7", divId: "adobe-dc-view"});
+        adobeDCView.previewFile({
+          content:{location: {url: "docs.pdf"}},
+          metaData:{fileName: "API.pdf"},
+        }, {embedMode: "FULL_WINDOW",
+            showAnnotationTools: false,
+            showDownloadPDF: true,
+            showPrintPDF: false,
+            showLeftHandPanel: false,
+            defaultViewMode: "PAGE"});
+      });
+    </script>
+</html>
