@@ -19,7 +19,7 @@ function Done(props) {
   key = img.split('?key=')[1]
   img = img.split('?')[0]
   let imglink = "https://pic.valeskini.dev/images/" + img;
-  let imglinkraw = "https://picimg.valeskini.dev/" + img;
+  let imglinkraw = "https://picimg.valeskini.dev/api/" + img;
   let dellink = "https://pic.valeskini.dev/delete/" + key;
   const vorschaustyle = {
     backgroundImage: "url(" + imglinkraw + ")",

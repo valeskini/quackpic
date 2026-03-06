@@ -18,8 +18,8 @@ function View(props) {
   const [imageobj, setImageObj] = useState("none");
   let newloc = location.replace("/images/", "");
 
-  location.replace("https://picimg.valeskini.dev/" + newloc);
-  fetch("https://picimg.valeskini.dev/" + newloc)
+  location.replace("https://picimg.valeskini.dev/api/" + newloc);
+  fetch("https://picimg.valeskini.dev/api/" + newloc)
     .then((response) => response.json())
     .then((data) => {
       if (data.respond === false) {
@@ -29,10 +29,10 @@ function View(props) {
       }
     });
   let imglink = "https://pic.valeskini.dev/images/" + newloc;
-  let imglinkraw = "https://picimg.valeskini.dev/" + newloc;
+  let imglinkraw = "https://picimg.valeskini.dev/api/" + newloc;
   let dellink = "https://pic.valeskini.dev/delete/" + newloc;
   const vorschaustyle = {
-    backgroundImage: "url(" + "https://picimg.valeskini.dev/" + newloc + ")",
+    backgroundImage: "url(" + "https://picimg.valeskini.dev/api/" + newloc + ")",
   };
   const popupstyle = {
     display: popup,

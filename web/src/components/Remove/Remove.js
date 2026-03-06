@@ -38,9 +38,9 @@ function Remove(props) {
   } else {
     let imglink = "https://pic.valeskini.dev/images/" + imageobj;
 
-    let imglinkraw = "https://picimg.valeskini.dev/" + imageobj;
+    let imglinkraw = "https://picimg.valeskini.dev/api/" + imageobj;
     const vorschaustyle = {
-      backgroundImage: "url(" + "https://picimg.valeskini.dev/" + imageobj + ")",
+      backgroundImage: "url(" + "https://picimg.valeskini.dev/api/" + imageobj + ")",
     };
     return (
       <div className="app">
@@ -48,7 +48,7 @@ function Remove(props) {
           <div className="logobig"></div>
           <h1 className="uploadtextbigdel">Bild Löschen?</h1>
           <input readOnly value={imageobj} className="piclinksmall"></input>
-          <a href={"https://picimg.valeskini.dev/" + imageobj}>
+          <a href={"https://picimg.valeskini.dev/api/" + imageobj}>
             <div style={vorschaustyle} className="imagevorschau"></div>
           </a>
           <a
