@@ -18,9 +18,9 @@ function Done(props) {
   let key
   key = img.split('?key=')[1]
   img = img.split('?')[0]
-  let imglink = "https://quackpic.at/images/" + img;
-  let imglinkraw = "https://img.quackpic.at/" + img;
-  let dellink = "https://quackpic.at/delete/" + key;
+  let imglink = "https://pic.valeskini.dev/images/" + img;
+  let imglinkraw = "https://picimg.valeskini.dev/" + img;
+  let dellink = "https://pic.valeskini.dev/delete/" + key;
   const vorschaustyle = {
     backgroundImage: "url(" + imglinkraw + ")",
   };

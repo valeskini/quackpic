@@ -2,7 +2,7 @@ body {
   position: absolute;
   background-size: 2500px;
   background-repeat: no-repeat;
-  background-image: url("https://quackpic.at/background.jpg");
+  background-image: url("https://pic.valeskini.dev/background.jpg");
 }
 
 .container {
@@ -195,7 +195,7 @@ body {
   left: 20px;
   top: 20px;
 
-  background-image: url("https://quackpic.at/logo.png");
+  background-image: url("https://pic.valeskini.dev/logo.png");
 }
 .uploadtextbig {
   position: absolute;
@@ -220,7 +220,7 @@ body {
   background-size: 250px 250px;
   left: 210px;
   top: 75px;
-  background-image: url("https://quackpic.at/upload.png");
+  background-image: url("https://pic.valeskini.dev/upload.png");
 }
 .logo {
   position: absolute;
@@ -231,7 +231,7 @@ body {
   left: 20px;
   top: 20px;
 
-  background-image: url("https://quackpic.at/logo.png");
+  background-image: url("https://pic.valeskini.dev/logo.png");
 }
 .uploadtext {
   position: absolute;
@@ -386,7 +386,7 @@ img:hover {opacity: 0.7;}
     background-repeat: no-repeat;
     background-size: unset;
     background-position-x: -225px;
-    background-image: url("https://quackpic.at/background.jpg");
+    background-image: url("https://pic.valeskini.dev/background.jpg");
   }
   .piclinkfull {
     position: absolute;
@@ -420,7 +420,7 @@ img:hover {opacity: 0.7;}
     left: 15px;
     top: 15px;
 
-    background-image: url("https://quackpic.at/logo.png");
+    background-image: url("https://pic.valeskini.dev/logo.png");
   }
   .linkdelete {
     position: absolute;
@@ -613,7 +613,7 @@ img:hover {opacity: 0.7;}
     background-size: 250px 250px;
     left: 160px;
     top: 50px;
-    background-image: url("https://quackpic.at/upload.png");
+    background-image: url("https://pic.valeskini.dev/upload.png");
   }
 
   .uploadtext {
@@ -708,7 +708,7 @@ img:hover {opacity: 0.7;}
     left: 20px;
     top: 20px;
 
-    background-image: url("https://quackpic.at/logo.png");
+    background-image: url("https://pic.valeskini.dev/logo.png");
   }
   .linknewupload {
     position: absolute;

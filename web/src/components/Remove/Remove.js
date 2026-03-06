@@ -15,7 +15,7 @@ function Remove(props) {
   const [imageobj, setImageObj] = useState("none");
   let location = props.location.pathname;
   let key = location.replace("/delete/", "");
-  fetch("https://api.quackpic.at/v1/key/" + key)
+  fetch("https://picapi.valeskini.dev/v1/key/" + key)
     .then((response) => response.json())
     .then((data) => {
       if (data !== null) {
@@ -36,11 +36,11 @@ function Remove(props) {
       </div>
     );
   } else {
-    let imglink = "https://quackpic.at/images/" + imageobj;
+    let imglink = "https://pic.valeskini.dev/images/" + imageobj;
 
-    let imglinkraw = "https://img.quackpic.at/" + imageobj;
+    let imglinkraw = "https://picimg.valeskini.dev/" + imageobj;
     const vorschaustyle = {
-      backgroundImage: "url(" + "https://img.quackpic.at/" + imageobj + ")",
+      backgroundImage: "url(" + "https://picimg.valeskini.dev/" + imageobj + ")",
     };
     return (
       <div className="app">
@@ -48,7 +48,7 @@ function Remove(props) {
           <div className="logobig"></div>
           <h1 className="uploadtextbigdel">Bild Löschen?</h1>
           <input readOnly value={imageobj} className="piclinksmall"></input>
-          <a href={"https://img.quackpic.at/" + imageobj}>
+          <a href={"https://picimg.valeskini.dev/" + imageobj}>
             <div style={vorschaustyle} className="imagevorschau"></div>
           </a>
           <a
@@ -58,7 +58,7 @@ function Remove(props) {
                 method: "DELETE",
               };
 
-              fetch("https://api.quackpic.at/v1/delete/" + key, {
+              fetch("https://picapi.valeskini.dev/v1/delete/" + key, {
                 method: "DELETE",
               })
                 .then((response) => response.json())

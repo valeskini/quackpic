@@ -56,7 +56,7 @@ function Home(props) {
         body: formData,
       };
 
-      fetch("https://api.quackpic.at/v1/upload/", requestOptions)
+      fetch("https://picapi.valeskini.dev/v1/upload/", requestOptions)
         .then((response) => response.text())
         .then((result) => (results = result))
         .catch((error) => console.log("error", error));

@@ -20,7 +20,7 @@ ReactDOM.render(
           </Route>
         </RouterSwitch>
     </Router>
-    <p className="imprint"><a href="https://quackpic.at/impressum.html">Impressum</a> &nbsp;»&nbsp; <a href="https://quackpic.at/datenschutz.html">Datenschutz</a></p>
+    <p className="imprint"><a href="https://pic.valeskini.dev/impressum.html">Impressum</a> &nbsp;»&nbsp; <a href="https://pic.valeskini.dev/datenschutz.html">Datenschutz</a></p>
   </React.StrictMode>,
   document.getElementById('quackpic')
 );

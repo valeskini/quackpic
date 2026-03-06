@@ -18,8 +18,8 @@ function View(props) {
   const [imageobj, setImageObj] = useState("none");
   let newloc = location.replace("/images/", "");
 
-  location.replace("https://img.quackpic.at/" + newloc);
-  fetch("https://img.quackpic.at/" + newloc)
+  location.replace("https://picimg.valeskini.dev/" + newloc);
+  fetch("https://picimg.valeskini.dev/" + newloc)
     .then((response) => response.json())
     .then((data) => {
       if (data.respond === false) {
@@ -28,11 +28,11 @@ function View(props) {
         setImageObj(data.image);
       }
     });
-  let imglink = "https://quackpic.at/images/" + newloc;
-  let imglinkraw = "https://img.quackpic.at/" + newloc;
-  let dellink = "https://quackpic.at/delete/" + newloc;
+  let imglink = "https://pic.valeskini.dev/images/" + newloc;
+  let imglinkraw = "https://picimg.valeskini.dev/" + newloc;
+  let dellink = "https://pic.valeskini.dev/delete/" + newloc;
   const vorschaustyle = {
-    backgroundImage: "url(" + "https://img.quackpic.at/" + newloc + ")",
+    backgroundImage: "url(" + "https://picimg.valeskini.dev/" + newloc + ")",
   };
   const popupstyle = {
     display: popup,
