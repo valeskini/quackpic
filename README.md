@@ -1,7 +1,10 @@
 # quackpic.at
-#### Demo: https://quackpic.valeskini.dev
+#### Live Demo: https://quackpic.valeskini.dev
 
-This is a image hosting platform I made in 2020. (+- 1y)
-It was a fun side project of mine because I wanted to host images to use in forums and such.
+A self-hosted image hosting platform I built around 2020. I needed a reliable way to host images for forums and socialmedia, so I created my own app to handle it.
 
-The code itself is surprisingly stable for the skills i had back then but the css is horribly.
+Tech Stack: NodeJS & React (built when I was just starting out)
+
+Why this exists
+
+This was my go-to side project. While the CSS is definitely quite ugly, the backend logic is surprisingly stable.
