@@ -1,5 +1,5 @@
 # quackpic.at
-#### Live Demo: https://quackpic.valeskini.dev
+#### Live Demo: https://qpic.valeskini.dev
 
 A self-hosted image hosting platform I built around 2020. I needed a reliable way to host images for forums and socialmedia, so I created my own app to handle it.
 
